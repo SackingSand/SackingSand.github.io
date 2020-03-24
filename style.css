@@ -126,7 +126,7 @@ a:hover + .dock, .dock:hover {
 	margin: 50px;
 	transition: all 1s;
 	border-radius: 50%;
-	color: #fafafa;
+	color: #0f0f0f;
 	background-color: #fafafa;
 }
 
