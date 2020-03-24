@@ -5,6 +5,6 @@ Me me me
 
 Nama : Yudha Putera P
 
-Motivasi : MY BLOOD BLEEDS IN C
+Motivasi : MY BLOOD BLEEDS IN C#
 
 Harapan : Bleednya biasa aja si
