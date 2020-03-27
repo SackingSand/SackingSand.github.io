@@ -30,17 +30,22 @@ a, a:visited {
 	justify-content: center;
 	position: absolute;
 	top : 5px;
-	right: 5px;
+	left: 5px;
 }
 
+.nav_trigger:hover{
+	background-color: #5f5f5f;
+}
+
+#bar {
+	width: 100px;
+}
 .navbar{
 	color: antiquewhite;
 	background-color: #4f4f4f;
-	width: 100px;
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;
-	position: fixed;
 	height: 100vh;
 	transition: 0.5s ease-in;
 }
@@ -61,4 +66,9 @@ a, a:visited {
 
 .navbar ul li:hover{
 	background-color: #afafaf;
+}
+
+.main_container{
+	height: 100vh;
+	width: 100vw;
 }

@@ -20,19 +20,20 @@
                 </ul>
             </div>
             <div class="main_container">
-
+                <p id='log'>
+                    a
+                </p>
             </div>
         </div>
     <script>
         function navy(){
+            document.getElementById('log').innerHTML = document.getElementById('bar').style.width;
 
-            if(document.getElementById('bar').style.width < 101){
+            if(document.getElementById('bar').style.width != '300px'){
                 document.getElementById('bar').style.width = 300;
             } else {
                 document.getElementById('bar').style.width = 100;
             }
-
-            alert(document.getElementById('bar').style.width)
         }
     </script>
 
