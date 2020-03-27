@@ -4,7 +4,6 @@ body {
 	background-size: cover;
 	background-position: center;
 	padding: 0;	
-	overflow: hidden;
 }
 
 
@@ -95,7 +94,7 @@ a, a:visited {
 /* ////////////////////////////// */
 .main_container{
 	height: 100vh;
-	width: 100vw;
+	width: auto;
 	margin-left: 100px;
 	display: flex;
 	flex-direction: column;
@@ -103,15 +102,83 @@ a, a:visited {
 
 .main_container .banner{
 	background-color: thistle;
-	height: 300px;
+	height: 500px;
+	background-image: url('./img/bannerlaptop.jpg');
+	background-size: cover	;
+	background-position: 0px -700px;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: flex-end;
+	padding: 20px;
 }
 
 .main_container .control{
-	background-color: turquoise;
-	height: 200px;
+	background-color : #bfbfbf;
+	height: auto;
+	padding: 10px 0 10px 20px;
 }
 
 .main_container .items {
-	background-color: violet;
-	height: 800px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.items_card {
+	border: 1px solid white;
+	padding: 10px;
+	margin: 10px;
+	width: 200px;
+	height: 300px;
+	border-radius: 10px;
+	text-align: center;
+	background-color: wheat;
+}
+
+.items_card .items_img{
+	height: 150px;
+	border: 1px solid white;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+.items_card .items_img img{
+	width: 100%;
+}
+
+.items_card .items_name{
+	height: auto;
+	overflow: hidden;
+	font-size: larger;
+}
+.items_card .items_harga{
+	height: auto;
+	overflow: hidden;
+	font-size: smaller;
+}
+.items_card .description{
+	height: 60px;
+	padding: 5px;
+	text-align: justify;
+	overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+	background-color: #bfbfbf;
+	width: 100vw;
+	height: 150px;
 }
