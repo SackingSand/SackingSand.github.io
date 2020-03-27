@@ -12,12 +12,13 @@
                         ☰
                     </div>
                 </a>
-                <ul>
-                    <li><a href="#">Dashboard</a></li>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">Login</a></li>
-                    <li><a href="#">Register</a></li>
-                </ul>
+                
+                <div class="icons">
+                    <a href="#"><img src="./img/iconhome.png" />Home</a>
+                    <a href="#"><img src="./img/iconproduct.png" class="active"/>Products</a>
+                    <a href="#"><img src="./img/iconlogin.png" />Login</a>
+                    <a href="#"><img src="./img/iconregister.png" />Register</a>
+                </div>
             </div>
             <div class="main_container">
                 <p id='log'>
@@ -27,13 +28,13 @@
         </div>
     <script>
         function navy(){
-            document.getElementById('log').innerHTML = document.getElementById('bar').style.width;
 
-            if(document.getElementById('bar').style.width != '300px'){
-                document.getElementById('bar').style.width = 300;
+            if(document.getElementById('bar').style.width != '100vw'){
+                document.getElementById('bar').style.width = '100vw';
             } else {
                 document.getElementById('bar').style.width = 100;
             }
+            document.getElementById('log').innerHTML = document.getElementById('bar').style.width;
         }
     </script>
 
