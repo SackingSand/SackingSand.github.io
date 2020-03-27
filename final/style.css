@@ -96,5 +96,22 @@ a, a:visited {
 .main_container{
 	height: 100vh;
 	width: 100vw;
-	margin-left: 105px;
+	margin-left: 100px;
+	display: flex;
+	flex-direction: column;
+}
+
+.main_container .banner{
+	background-color: thistle;
+	height: 300px;
+}
+
+.main_container .control{
+	background-color: turquoise;
+	height: 200px;
+}
+
+.main_container .items {
+	background-color: violet;
+	height: 800px;
 }
