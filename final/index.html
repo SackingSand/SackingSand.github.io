@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title> Quirckiness </title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="icon" href="https://img.icons8.com/wired/64/000000/warface-logo.png">
+    </head>
+    <body>
+        <div class="body_container">
+            <div id ="bar" class="navbar">
+                <a href="#" onclick="navy()">
+                    <div class="nav_trigger">
+                        ☰
+                    </div>
+                </a>
+                <ul>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Register</a></li>
+                </ul>
+            </div>
+            <div class="main_container">
+
+            </div>
+        </div>
+    <script>
+        function navy(){
+
+            if(document.getElementById('bar').style.width < 101){
+                document.getElementById('bar').style.width = 300;
+            } else {
+                document.getElementById('bar').style.width = 100;
+            }
+
+            alert(document.getElementById('bar').style.width)
+        }
+    </script>
+
+    </body>
+</html>
